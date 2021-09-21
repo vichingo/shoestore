@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing rendering: App snapshot 1`] = `
+<styled.div>
+  <ContextProvider
+    value={
+      Object {
+        "setWishlistOpen": [Function],
+        "wishlistItems": Array [],
+        "wishlistOpen": false,
+      }
+    }
+  >
+    <Header
+      getTotalItems={[Function]}
+    />
+  </ContextProvider>
+  <WithStyles(ForwardRef(Drawer))
+    anchor="right"
+    onClose={[Function]}
+    open={false}
+  >
+    <Wishlist
+      addToWishlist={[Function]}
+      removeFromWishlist={[Function]}
+      wishlistItems={Array []}
+    />
+  </WithStyles(ForwardRef(Drawer))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="1"
+      sm={4}
+      xs={12}
+    >
+      <Item
+        handleAddToWishlist={[Function]}
+        item={
+          Object {
+            "brand_name": "Jordan",
+            "id": 1,
+            "image": "images/airjordan-low.jpg",
+            "name": "AIR JORDAN LOW",
+            "price": Object {
+              "original": 109.95,
+              "promotional": 109.95,
+            },
+            "sizes": Array [
+              "40",
+              "40.5",
+              "41",
+              "42",
+              "42.5",
+              "43",
+              "44",
+              "44.5",
+              "45",
+              "45.5",
+              "46",
+              "47",
+              "47.5",
+              "48.5",
+              "49.5",
+              "50.5",
+              "51.5",
+              "52.5",
+            ],
+            "sku": "JOC12O006-A23",
+          }
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="2"
+      sm={4}
+      xs={12}
+    >
+      <Item
+        handleAddToWishlist={[Function]}
+        item={
+          Object {
+            "brand_name": "Adidas",
+            "id": 2,
+            "image": "images/adidas-superstar.jpg",
+            "name": "SUPERSTAR",
+            "price": Object {
+              "original": 99.95,
+              "promotional": 99.95,
+            },
+            "sizes": Array [
+              "36",
+              "38",
+              "42",
+              "44",
+              "46",
+              "48",
+              "36",
+              "37",
+              "38",
+              "39",
+              "40",
+              "41",
+              "43",
+              "44",
+              "45",
+              "48",
+            ],
+            "sku": "AD115O0IX-Q12",
+          }
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="3"
+      sm={4}
+      xs={12}
+    >
+      <Item
+        handleAddToWishlist={[Function]}
+        item={
+          Object {
+            "brand_name": "Jordan",
+            "id": 3,
+            "image": "images/airjordan-1-mid.jpg",
+            "name": "AIR JORDAN 1 MID",
+            "price": Object {
+              "original": 114.95,
+              "promotional": 114.95,
+            },
+            "sizes": Array [
+              "44",
+              "44.5",
+              "45",
+              "45.5",
+              "47",
+              "47.5",
+              "48.5",
+              "49.5",
+              "50.5",
+              "51.5",
+              "52.5",
+            ],
+            "sku": "JOC12N001-A18",
+          }
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="4"
+      sm={4}
+      xs={12}
+    >
+      <Item
+        handleAddToWishlist={[Function]}
+        item={
+          Object {
+            "brand_name": "Nike",
+            "id": 4,
+            "image": "images/airmax-90.jpg",
+            "name": "AIR MAX 90",
+            "price": Object {
+              "original": 139.95,
+              "promotional": 139.95,
+            },
+            "sizes": Array [
+              "38.5",
+              "39",
+              "40",
+              "40.5",
+              "41",
+              "42.5",
+              "46",
+              "47",
+              "47.5",
+              "49.5",
+            ],
+            "sku": "NI112O0BT-Q11",
+          }
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="5"
+      sm={4}
+      xs={12}
+    >
+      <Item
+        handleAddToWishlist={[Function]}
+        item={
+          Object {
+            "brand_name": "Nike",
+            "id": 5,
+            "image": "images/airmax-90-zw.jpg",
+            "name": "AIR MAX 90 - zwart",
+            "price": Object {
+              "original": 139.95,
+              "promotional": 139.95,
+            },
+            "sizes": Array [
+              "38.5",
+              "39",
+              "40",
+              "40.5",
+              "41",
+              "42",
+              "42.5",
+              "43",
+              "44",
+              "44.5",
+              "45",
+              "45.5",
+              "46",
+              "47",
+              "47.5",
+              "48.5",
+              "49.5",
+            ],
+            "sku": "NI112O0BT-Q12",
+          }
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="6"
+      sm={4}
+      xs={12}
+    >
+      <Item
+        handleAddToWishlist={[Function]}
+        item={
+          Object {
+            "brand_name": "Timberland",
+            "id": 6,
+            "image": "images/adv20-cupsole-modern.jpg",
+            "name": "ADV 2.0 CUPSOLE MODERN",
+            "price": Object {
+              "original": 99.95,
+              "promotional": 89.95,
+            },
+            "sizes": Array [
+              "40",
+              "41",
+              "41.5",
+              "42",
+              "43",
+              "43.5",
+              "44",
+              "44.5",
+              "45",
+              "45.5",
+              "46",
+              "47.5",
+              "49",
+              "50",
+            ],
+            "sku": "TI112O00P-K11",
+          }
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</styled.div>
+`;

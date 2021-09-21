@@ -23,26 +23,29 @@ import { WishlistItemType } from "./App.types";
 import { Wrapper } from "./App.styles";
 
 const App: React.FC = () => {
+
   const [wishlistOpen, setWishlistOpen] = useState(false);
-  // const [wishlistItems, setWishlistItems] = useState([] as WishlistItemType[]);
   const [wishlistItems, setWishlistItems] = useLocalStorage("wishListItems", [] as WishlistItemType[]);
 
   const products: WishlistItemType[] = data.products;
 
-  const getTotalItems = (items: WishlistItemType[]) =>
-      items.reduce((acc: number, item) => acc + item.amount!, 0);
+  const getTotalItems = (items: WishlistItemType[]) => items.reduce((acc: number, item) => acc + item.amount!, 0);
 
   const handleAddToWishlist = (clickedItem: WishlistItemType) => {
+    
     setWishlistItems(prev => {
-      //Already in the cart
+
+      // Item already in the cart
       const isItemOnList = prev.find(item => item.id === clickedItem.id)
-      // Add to item in list  
+      
+      // Add to item in cart  
       if (isItemOnList) {
         return prev.map(item => 
           item.id === clickedItem.id ? {...item, amount: item.amount! + 1} : item
         );
       }
-      //New to the list
+      
+      // Add new item to the cart
       return [...prev, { ...clickedItem, amount: 1 }];
     });
   };
